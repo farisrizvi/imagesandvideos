@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                                       
+    <title>photos and videos</title>
+    <style>
+        .body  {
+  background-image: url("/images/scrolling.jpg");
+  background-color: #cccccc;
+}       
+    .dark{
+        height: 400px;
+        width: 100%;
+        background-image: url(/images/Burger.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+        filter: brightness(40%);
+        animation: dark 5s infinte;
+        
+    }
+    .dark:hover{
+        filter: brightness(100%)
+        
+    }
+    @keyframes dark{
+        from{top:brightness(40%);}
+        to{bottom:brightness(100%);}
+    }
+    .border{
+     border-style: inset;
+    }
+
+    .wrap{
+    width: 100px;
+    height: 100px;
+    transform: skew(20deg);
+    background: red;
+    float: left;
+    margin-right: 1.5rem;
+    margin-left: 35px;
+    }
+    </style>
+</head>
+<body>
+    <div style="background: black; width: 100%; text-align: center;padding: 400px 0;color: white;">
+        <div style="font-size: 50px;">Introductory</div>
+    </div>
+    <div id="Halfs" style="background: green; width: 50%; float: right; text-align: center;padding: 400px 0;">
+        <div style="
+        font-size: 50px;">Duos</div>
+        <img style=" border-radius: 50%;" src="/images/pancakes.jpg" alt="Paris" width="300" height="300">
+    </div>
+    <div style="background: blue; width: 50%; text-align: center;padding: 400px 0;">
+        <div style="font-size: 50px;">Duos</div>
+        <img style="box-shadow: 7px 7px 7px #666666;" src="/images/food.jpg" alt="Paris" width="300" height="300">
+    </div>
+    <div style="background: yellow; width:20%; float: left; text-align: center;padding: 400px 0;">
+        <div style="font-size: 50px;">Part1</div>
+        <img style="width: 400px;height: 400px;" src="/images/fruit panel.jpg" alt="">
+    </div>
+    <div style="background: gold; width: 40%; text-align: center;padding: 400px 0; float: left">
+        <div style="
+        font-size: 50px;">part 2</div>
+        <img style=" height:400px;width:400px;opacity:.5;color: rgba(218,180,153, 0.5);" src="/images/pasta.jpg">
+    </div>
+    <div style="background:pink; width:40%; float: left; text-align: center;padding: 400px 0;">
+        <div style="
+        font-size: 50px;">part 3</div>
+        <div class="dark"></div>
+    </div>
+
+    <div style="background: orange; width:25%; float: right; text-align: center;padding: 400px 0;">
+        <div style="
+        font-size: 50px;">fourths</div>
+        <iframe width="300" height="315" src="https://www.youtube.com/embed/eBRi5epITww" title="YouTube video player" frameborder="80" allow="accelerometer; loop bautoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div style="background: violet; width: 25%; text-align: center;padding: 400px 0; float: left">
+        <div style="
+        font-size: 50px;">fourth</div>
+        <img class="border" style="width: 250px;height: 250px;" src="/images/steak.jpg
+        " alt="a picture of a flower lmaoo">
+    </div>
+    <div style="background: purple; width:25%; float: left; text-align: center;padding: 400px 0;;">
+        <div style="
+        font-size: 50px;">fourths</div>
+        <img class="wrap" style="height: 150px;width: 150px;;" src="/images/cake.jpg" alt="wrapped bruh">
+        <section class="bruh">
+            <h2>Wrap text goes in here</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </section>
+    </div>
+  <div style="background: red; width:25%; float: left; text-align: center;padding: 400px 0;">
+        <div style="
+        font-size: 50px;">fourths</div>
+          <iframe width="300" height="315" src="https://www.youtube.com/embed/eBRi5epITww" title="YouTube video player" frameborder="80" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+    </div>
+    
+</body>
+</html>
